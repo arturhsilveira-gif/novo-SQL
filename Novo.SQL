@@ -73,6 +73,17 @@ INSERT INTO medicos (especialidade_id, nome, crm, valor_consulta) VALUES
 (1, 'Dra. Carla Mendes', 'CRM/SP 123456', 350.00),
 (2, 'Dr. Roberto Alves', 'CRM/SP 654321', 250.00),
 (3, 'Dra. Juliana Lima', 'CRM/SP 789123', 300.00);
+--mudanças
+
+INSERT INTO medicos (especialidade_id, nome, crm, valor_consulta) VALUES 
+(1, 'Dra. Carla Mendes', 'CRM/SP 222222', 350.00),
+(2, 'Dr. Roberto Alves', 'CRM/SP 347554', 250.00),
+(3, 'Dra. Juliana Lima', 'CRM/SP 125439', 300.00),
+(4, 'Dr. carlos daux', 'CRM/SP 177686', 200.00);
+
+INSERT INTO medicos (especialidade_id, nome, crm, valor_consulta) VALUES 
+(4, 'Dr. carlos daux', 'CRM/SP 177686', 200.00);
+
 
 
 INSERT INTO pacientes (nome, email, cpf, data_nascimento) VALUES 
